@@ -1,6 +1,8 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment/login_with_validation.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -8,7 +10,19 @@ void main() {
   ));
 }
 
-class Splash extends StatelessWidget {
+class Splash extends StatefulWidget {
+  @override
+  State<Splash> createState() => _SplashState();
+}
+
+class _SplashState extends State<Splash> {
+  @override
+  void initState() {
+    Timer(Duration(milliseconds: 3000), () {
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginWithValidation()));
+    });
+    super.initState();
+  }
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
