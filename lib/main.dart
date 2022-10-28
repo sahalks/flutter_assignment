@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment/Listview_with_builder.dart';
 import 'package:flutter_assignment/login_with_validation.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     Timer(Duration(milliseconds: 3000), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginWithValidation()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Listviewwithbuilder()));
     });
     super.initState();
   }
