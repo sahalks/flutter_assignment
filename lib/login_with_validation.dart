@@ -12,6 +12,8 @@ class LoginWithValidation extends StatefulWidget{
 
 class _LoginWithValidationState extends State<LoginWithValidation> {
   var formkey = GlobalKey<FormState>();
+  bool _passView = true;
+  get passController => null;
 
   @override
   Widget build(BuildContext context){
@@ -46,10 +48,23 @@ class _LoginWithValidationState extends State<LoginWithValidation> {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10),
                 child: TextFormField(
+                  controller: passController,
+                  obscureText: _passView,
                   decoration: InputDecoration(
                     prefixIcon: const Icon(Icons.password_outlined),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(27)
+                    ),
+                    suffixIcon: IconButton(
+                      tooltip: 'Password visibility',
+                      onPressed: () {
+                        setState(() {
+                          _passView ? _passView = false : _passView = true;
+                        });
+                      },
+                      icon: _passView
+                          ? const Icon(Icons.remove_red_eye_rounded)
+                          : const Icon(Icons.visibility_off_rounded),
                     ),
                     labelText: 'Password',
 

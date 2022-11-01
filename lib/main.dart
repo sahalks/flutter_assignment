@@ -24,15 +24,16 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   @override
   void initState() {
-    Timer(Duration(milliseconds: 3000), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => GridviewCount()));
+    Timer(const Duration(milliseconds: 3000), () {
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const LoginWithValidation()));
     });
     super.initState();
   }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.fill,
             image: NetworkImage(
