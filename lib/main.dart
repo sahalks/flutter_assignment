@@ -2,7 +2,12 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment/GridView_Builder.dart';
+import 'package:flutter_assignment/GridView_Count.dart';
+import 'package:flutter_assignment/GridView_Extent.dart';
 import 'package:flutter_assignment/Listview_with_builder.dart';
+import 'package:flutter_assignment/Listview_with_seperator.dart';
+import 'package:flutter_assignment/bottom.dart';
 import 'package:flutter_assignment/login_with_validation.dart';
 
 void main() {
@@ -20,7 +25,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     Timer(Duration(milliseconds: 3000), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Listviewwithbuilder()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => GridviewCount()));
     });
     super.initState();
   }
