@@ -10,6 +10,7 @@ import 'package:flutter_assignment/Listview_with_builder.dart';
 import 'package:flutter_assignment/Listview_with_seperator.dart';
 import 'package:flutter_assignment/StackBasic.dart';
 import 'package:flutter_assignment/Staggered_gridview.dart';
+import 'package:flutter_assignment/Tables.dart';
 import 'package:flutter_assignment/bottom.dart';
 import 'package:flutter_assignment/login_with_validation.dart';
 
@@ -30,7 +31,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     Timer(const Duration(milliseconds: 3000), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => StaggeredGridview()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Tableview()));
     });
     super.initState();
   }
