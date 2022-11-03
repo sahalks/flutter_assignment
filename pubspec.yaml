@@ -48,7 +48,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
   fluttertoast: ^8.1.1
-
+  staggered_grid_view_flutter: ^0.0.4
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

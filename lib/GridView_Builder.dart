@@ -22,7 +22,9 @@ class GridviewTest extends StatelessWidget {
         child: GridView.builder(
           itemCount: images.length,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 3, mainAxisSpacing: 20, crossAxisSpacing: 20),
+              crossAxisCount: 3,
+              mainAxisSpacing: 20,
+              crossAxisSpacing: 20),
           itemBuilder: (context, index) {
             return Image.network(images[index]);
           },
