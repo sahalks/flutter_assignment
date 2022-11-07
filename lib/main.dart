@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment/CheckBox.dart';
 import 'package:flutter_assignment/FixedAppBar_with_Search.dart';
 import 'package:flutter_assignment/GridView_Builder.dart';
 import 'package:flutter_assignment/GridView_Count.dart';
@@ -9,6 +10,7 @@ import 'package:flutter_assignment/GridView_Custom.dart';
 import 'package:flutter_assignment/GridView_Extent.dart';
 import 'package:flutter_assignment/Listview_with_builder.dart';
 import 'package:flutter_assignment/Listview_with_seperator.dart';
+import 'package:flutter_assignment/Lottiee.dart';
 import 'package:flutter_assignment/StackBasic.dart';
 import 'package:flutter_assignment/Staggered_gridview.dart';
 import 'package:flutter_assignment/TabBar.dart';
@@ -32,8 +34,8 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   @override
   void initState() {
-    Timer(const Duration(milliseconds: 3000), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => FixedwithSeach()));
+    Timer(const Duration(milliseconds: 0), () {
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Expansiontil()));
     });
     super.initState();
   }
