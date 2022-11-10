@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 
 class Expansiontilee extends StatefulWidget {
-  const Expansiontilee({Key? key, required Text title, required subtitle, required children}) : super(key: key);
 
   @override
   State<Expansiontilee> createState() => _ExpansionTileState();
