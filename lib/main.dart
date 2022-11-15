@@ -17,12 +17,16 @@ import 'package:flutter_assignment/Inkwell.dart';
 import 'package:flutter_assignment/Listview_with_builder.dart';
 import 'package:flutter_assignment/Listview_with_seperator.dart';
 import 'package:flutter_assignment/Lottiee.dart';
+import 'package:flutter_assignment/Profile_ui/Profile_UI.dart';
+import 'package:flutter_assignment/Signup.dart';
 import 'package:flutter_assignment/StackBasic.dart';
 import 'package:flutter_assignment/Staggered_gridview.dart';
 import 'package:flutter_assignment/TabBar.dart';
 import 'package:flutter_assignment/Tables.dart';
 import 'package:flutter_assignment/assignment_1/List_with_Checkbox.dart';
+import 'package:flutter_assignment/assignment_1/Welcome.dart';
 import 'package:flutter_assignment/bottom.dart';
+import 'package:flutter_assignment/home.dart';
 import 'package:flutter_assignment/login_with_validation.dart';
 
 void main() {
@@ -42,7 +46,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     Timer(const Duration(milliseconds: 0), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => CheckBoxList()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Profile_UI()));
     });
     super.initState();
   }
