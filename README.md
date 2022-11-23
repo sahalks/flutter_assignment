@@ -1,16 +1,26 @@
-# flutter_assignment
+## Screenshots
 
-A new Flutter project.
+<table>
+  <tr>
+    <td align="center">Splash Screen</td>
+    <td align="center">Welcome Screen</td>
+    <td align="center">Login Form</td>
+    <td align="center">Sign Up Form</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/Splash screenshot.png" width=200></td>
+    <td align="center"><img src="screenshots/Welcome screenshot.png" width=200></td>
+    <td align="center"><img src="screenshots/Login Page screenshot.png" width=200></td>
+    <td align="center"><img src="screenshots/Signup Page screenshot.png" width=200></td>
+    
+  </tr>
+</table>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td align="center">Farmer UI</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/Farmers screenshot.png" width=200></td>
+  </tr>
+</table>
