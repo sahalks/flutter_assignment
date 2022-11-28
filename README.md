@@ -15,7 +15,14 @@
     
   </tr>
 </table>
-
+<table>
+  <tr>
+    <td align="center">Ecommerce UI</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/EcommerceUI.png" width=200></td>
+  </tr>
+</table>
 <table>
   <tr>
     <td align="center">Profile UI</td>
