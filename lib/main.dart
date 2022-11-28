@@ -7,6 +7,7 @@ import 'package:flutter_assignment/Bottom_Sheet.dart';
 import 'package:flutter_assignment/Carousel_Slider.dart';
 import 'package:flutter_assignment/CheckBox.dart';
 import 'package:flutter_assignment/Drawer/Drawer.dart';
+import 'package:flutter_assignment/Ecommerce_ui/Ecommerce_UI.dart';
 import 'package:flutter_assignment/ExpansionTile.dart';
 import 'package:flutter_assignment/FixedAppBar_with_Search.dart';
 import 'package:flutter_assignment/GridView_Builder.dart';
@@ -46,7 +47,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     Timer(const Duration(milliseconds: 500), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Profile_UI()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => EcommerceUi()));
     });
     super.initState();
   }
