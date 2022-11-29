@@ -17,11 +17,13 @@
 </table>
 <table>
   <tr>
+    <td align="center">Grid UI</td>
     <td align="center">Profile UI using Stack</td>
     <td align="center">Staggered Grid UI</td>
     <td align="center">Ecommerce UI</td>
   </tr>
   <tr>
+    <td align="center"><img src="screenshots/GridUI.png" width=200></td>
     <td align="center"><img src="screenshots/StackProfileUI.png" width=200></td>
     <td align="center"><img src="screenshots/StaggridUI.gif" width=200></td>
     <td align="center"><img src="screenshots/EcommerceUI.png" width=200></td>
