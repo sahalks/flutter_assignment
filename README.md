@@ -22,8 +22,8 @@
     <td align="center">Ecommerce UI</td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/Satck_Profile_UI.png" width=200></td>
-    <td align="center"><img src="screenshots/EcommerceUI.png" width=200></td>
+    <td align="center"><img src="screenshots/SatckProfileUI.png" width=200></td>
+    <td align="center"><img src="screenshots/StaggridUI.gif" width=200></td>
     <td align="center"><img src="screenshots/EcommerceUI.png" width=200></td>
   </tr>
 </table>
