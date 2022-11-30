@@ -14,10 +14,11 @@ import 'package:flutter_assignment/ExpansionTile.dart';
 import 'package:flutter_assignment/FixedAppBar_with_Search.dart';
 import 'package:flutter_assignment/Grid%20and%20UI/Grid_ui/Grid_UI.dart';
 import 'package:flutter_assignment/Inkwell.dart';
-import 'package:flutter_assignment/Listview_with_builder.dart';
-import 'package:flutter_assignment/Listview_with_seperator.dart';
+import 'package:flutter_assignment/List%20View/ListView%20with%20Builder_ui/Builder_UI.dart';
+import 'package:flutter_assignment/List%20View/Listview_with_seperator.dart';
 import 'package:flutter_assignment/Lottiee.dart';
 import 'package:flutter_assignment/Profile_ui/Profile_UI.dart';
+import 'List View/Listview_with_builder.dart';
 import 'Login and SignUp/home.dart';
 import 'package:flutter_assignment/Stack%20with%20Profile_ui/Profile_ui%20Stack/Stack_Profile_ui.dart';
 import 'package:flutter_assignment/Stack%20with%20Profile_ui/StackBasic.dart';
@@ -54,8 +55,8 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   @override
   void initState() {
-    Timer(const Duration(milliseconds: 500), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => CardsSample()));
+    Timer(const Duration(milliseconds: 1000), () {
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => MovieListWithBuilder()));
     });
     super.initState();
   }
@@ -65,9 +66,9 @@ class _SplashState extends State<Splash> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            fit: BoxFit.fill,
+            fit: BoxFit.cover,
             image: NetworkImage(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBHtFd-npMTFmdrB2MxY64fa-TpUATcEbUjg&usqp=CAU"),
+                "https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=282&q=80"),
           ),
         ),
         child: Center(
@@ -76,7 +77,7 @@ class _SplashState extends State<Splash> {
             children: [
               Image.asset("assets/images/images.jpg", ),
               const Text("Welcome",
-                  style: TextStyle(fontSize: 50, color: Colors.white, )),
+                  style: TextStyle(fontSize: 50, color: Colors.black, )),
             ],
           ),
         ),
