@@ -16,6 +16,14 @@
 </table>
 <table>
   <tr>
+    <td align="center">Cards UI</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/CardsUI.png" width=200></td>
+  </tr>
+</table>
+<table>
+  <tr>
     <td align="center">Contacts UI</td>
     <td align="center">WhatsApp UI</td>
     <td align="center">WhatsApp UI</td>
