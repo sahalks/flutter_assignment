@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'login_with_validation.dart';
+import 'Login.dart';
 
 class Signup extends StatefulWidget {
   const Signup({super.key});
@@ -135,7 +135,7 @@ class _Signup extends State<Signup>{
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) =>  LoginWithValidation()));
+                                builder: (context) =>  LoginPage()));
                       } else {
                         Fluttertoast.showToast(
                             msg: 'Signup failed',
@@ -154,7 +154,7 @@ class _Signup extends State<Signup>{
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => LoginWithValidation()));
+                              builder: (context) => LoginPage()));
                     },
                     child: const Text('Already signed up? Login'))
               ],

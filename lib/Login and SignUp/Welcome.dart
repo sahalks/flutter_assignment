@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_assignment/Signup.dart';
-import 'package:flutter_assignment/login_with_validation.dart';
+
+import 'Signup.dart';
+import 'Login.dart';
+
 
 class Welcome extends StatelessWidget {
   const Welcome({super.key});
@@ -39,7 +41,7 @@ class Welcome extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => const LoginWithValidation()));
+                                  builder: (context) =>  LoginPage()));
                         },
                         style: ElevatedButton.styleFrom(
                           //padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),

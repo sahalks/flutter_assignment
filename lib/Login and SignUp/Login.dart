@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment/Signup.dart';
-import 'package:flutter_assignment/home.dart';
+import 'package:flutter_assignment/Login%20and%20SignUp/Signup.dart';
+import 'package:flutter_assignment/Login%20and%20SignUp/home.dart';
 
-class LoginWithValidation extends StatefulWidget{
-
-  const LoginWithValidation({super.key});
+class LoginPage extends StatefulWidget{
 
   @override
-  State<LoginWithValidation> createState() => _LoginWithValidationState();
+  State<LoginPage> createState() => _LoginPage();
 }
 
-class _LoginWithValidationState extends State<LoginWithValidation> {
+class _LoginPage extends State<LoginPage> {
   var formkey = GlobalKey<FormState>();
   bool _passView = true;
   get passController => null;
