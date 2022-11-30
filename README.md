@@ -55,17 +55,12 @@
 <table>
   <tr>
     <td align="center">Profile UI</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/ProfileUI.gif" width=200></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
+    <td align="center">Blog UI</td>
     <td align="center">Farmer UI</td>
   </tr>
   <tr>
+    <td align="center"><img src="screenshots/ProfileUI.gif" width=200></td>
+    <td align="center"><img src="screenshots/BlogUI.png" width=200></td>
     <td align="center"><img src="screenshots/Farmers screenshot.png" width=200></td>
   </tr>
 </table>
