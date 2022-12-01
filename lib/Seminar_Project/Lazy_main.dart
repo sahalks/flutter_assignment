@@ -4,7 +4,7 @@ import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 
 
 void main(){
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
     home: LazyLoading(),
   ));
