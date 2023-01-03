@@ -28,9 +28,9 @@
 </table>
 <table>
   <tr>
-    <td align="center">WhatsApp UI</td>
-    <td align="center">WhatsApp UI</td>
-    <td align="center">WhatsApp UI</td>
+    <td align="center">WhatsApp UI (chats)</td>
+    <td align="center">WhatsApp UI (status)</td>
+    <td align="center">WhatsApp UI (calls)</td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/Whatsappchats.png" width=200></td>
@@ -57,10 +57,12 @@
     <td align="center">Profile UI</td>
     <td align="center">Blog UI</td>
     <td align="center">Farmer UI</td>
+    <td align="center">YouTube UI</td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/ProfileUI.gif" width=200></td>
     <td align="center"><img src="screenshots/BlogUI.png" width=200></td>
     <td align="center"><img src="screenshots/Farmers screenshot.png" width=200></td>
+    <td align="center"><img src="screenshots/YoutubeUI.png" width=200></td>
   </tr>
 </table>
